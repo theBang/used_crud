@@ -1,0 +1,25 @@
+{
+  "name": "used_crud",
+  "version": "1.0.0",
+  "description": "User CRUD API on Fastify and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theBang/used_crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theBang/used_crud/issues"
+  },
+  "homepage": "https://github.com/theBang/used_crud#readme",
+  "dependencies": {
+    "fastify": "^2.10.0",
+    "mongoose": "^5.7.10"
+  }
+}
