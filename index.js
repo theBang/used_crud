@@ -1,5 +1,5 @@
-const dd = require('./models');
+const models = require('./models');
 
 (async () => {
-    console.log(dd);
+    console.log(models);
 })();

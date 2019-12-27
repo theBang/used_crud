@@ -9,5 +9,5 @@ module.exports = (mongoose, conn) => {
         }
     });
 
-    return User = conn.model('User', UserSchema);  
+    return conn.model('User', UserSchema);  
 }
