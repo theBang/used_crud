@@ -8,7 +8,7 @@ let User;
 (async () => {
     try {
         const conn = await mongoose.createConnection(
-            'mongodb+srv://user_admin:12345@cluster0-uxb4t.mongodb.net/userdb', { 
+            'mongodb+srv://s', { 
                 useNewUrlParser: true,
                 useUnifiedTopology: true 
             }
